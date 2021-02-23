@@ -1,0 +1,999 @@
+
+
+    /* 导航栏CSS开始  */
+.navigation .navigation-1 ul li{
+    float: left;
+}
+.navigation .navigation-2 ul li{
+    float: left;
+}
+.see{
+    margin:0 4px;
+    color: #373C42;
+}
+.navigation .w ul  li a{
+    width: 120px;
+    color:#B0B0B0;
+}
+.navigation .w ul  li a:hover{
+    color:white;
+}
+.navigation .w ul  li .wu{
+    display: inline-block;
+    text-align: center;
+    background-color:#424242 ;
+    margin-left: 24px;
+    line-height: 39px;
+    border-bottom: 1px solid #424242;
+}
+    .navigation .w ul  li .wu:hover{
+        background-color: white;
+        color:#FF6700 ;
+        border-bottom: 1px solidwhite;
+}
+.navigation .w ul  li .wu span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+    .navigation .w .navigation-2 ul li p{
+        width: 320px;
+        height: 0px;
+        text-align: center;
+        position: absolute;
+        line-height: 0px;
+        top: 40px;
+        right: 146px;
+        box-shadow: 0 15px 30px rgb(0,0,0,.1);
+        background-color: white;
+        opacity: 0;
+        
+       
+}
+    .navigation .w .navigation-2 ul li:hover p{
+        height: 56px;
+        opacity: 1;
+        padding-top: 44px;
+        transition: height 0.3s, opacity 0.3s;
+}
+.navigation .w .navigation-2 ul  li:hover .wu{
+    height: 40px;
+    color: #FF6700;
+    background-color: white;
+}
+    /* 导航栏CSS结束  */
+
+/* 搜索栏CSS开始 */
+.head{
+    height: 100px;
+    width: 1226px;
+}
+.head  .logo{
+    background-color: #FF6700;
+    margin-top: 28px;
+}
+.head  .logo img{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 68px;
+}
+.head .head-1 ul{
+    margin-left: 237px;
+    
+    line-height: 125px;
+}
+.head .head-1 ul li{
+    float: left;
+    margin-right: 20px;
+}
+.head .head-1 ul li a{
+    font-size: 15px;
+    color: #333333;
+}
+.head .head-1 ul li a:hover{
+    color: #FF6700;
+}
+.head .head-2 input{
+    width: 245px;
+    height: 50px;
+    margin-top: 31px;
+    float: left;
+    border: 1px solid #E0E0E0;
+    text-indent: 1em;
+    outline: none;
+}
+
+.head .head-2 input:hover{
+    border: 1px solid #B0B0B0;
+}
+.head .head-2 input:hover+.search{
+    border: 1px solid #B0B0B0;
+    border-left: 0px;
+}
+.head .head-2 input:focus{
+    border: 1px solid red;
+}
+.head .head-2 input:focus+.search{
+    border: 1px solid red;
+    border-left: 0px;
+}
+.head .head-2 .search{
+    width: 52px;
+    height: 50px;
+    border:1px solid #E0E0E0;
+    border-left: 0px;
+    margin-top: 31px;
+    text-align: center;
+    line-height: 52px;
+    float: left;
+}
+.head .head-2 .icon-kuangneisousuo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.head .head-2 .search:hover{
+    background-color: #FF6700;
+    color: white;
+}
+/* 搜索栏CSS结束 */
+
+
+    /* 轮播栏CSS开始 */
+.Rotation{
+    width: 1226px;
+    height: 460px;
+    background:url("../images/banner.jpg");
+    background-size: 1226px 460px;
+    position:relative;
+}
+.Rotation .Rotation-1{
+    width: 234px;
+    height: 460px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(103,96,94,5);
+}
+.Rotation .Rotation-1 ul{
+    width: 234px;
+    height: 460px;
+    padding-top: 20px;
+}
+.Rotation .Rotation-1 ul li{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    opacity: 1;
+    position: relative;
+}
+.Rotation .Rotation-1 ul li .Sideslip{
+    width: 992px;
+    height: 460px;
+    background-color: white;
+    float: left;
+    position: absolute;
+    top: -20px;
+    left: 235px;
+    display: none;
+}
+.Rotation .Rotation-1 ul li .Sideslip:hover{
+    display: block;
+}
+.Rotation .Rotation-1 ul li:hover .Sideslip{
+    display:block;
+}
+.Rotation .Rotation-1 ul li .Sideslip a{
+    height: 40px;
+    color: #333333;
+    display: inline-block;
+    padding: 18px 20px;
+
+}
+.Rotation .Rotation-1 ul li .Sideslip a img{
+    width: 40px;
+    height: 40px;
+}
+.Rotation .Rotation-1 ul li .Sideslip a:hover{
+    background-color: transparent;
+}
+.Rotation .Rotation-1 ul li .Sideslip a span{
+    padding-bottom: 10px;
+}
+.Rotation .Rotation-1 ul li .Sideslip a:hover span{
+    color: #FF6700;
+}
+.Rotation .Rotation-1 ul li a{
+    width: 184px;
+    padding-right: 20px;
+    padding-left: 30px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+}
+.Rotation .Rotation-1 ul li a:hover{
+    background-color: #FF6700;
+}
+.Rotation .Rotation-2{
+    width: 992px;
+    height: 460px;
+
+    float: left;
+    margin-left: 234px;
+    position: relative;
+   
+}
+
+.Rotation-2t{
+    position: relative;
+}
+.Rotation .Rotation-2 .Rotation-2t .Rotation-z{
+    width: 41px;
+    height: 69px;
+    position: relative;
+    top: 173px;
+    left: 0px;
+     margin-top: -35px;
+}
+.Rotation .Rotation-2 .Rotation-2t .Rotation-y{
+    width: 41px;
+    height: 69px;
+    position: relative; 
+    top: 173px;
+    right:-906px;
+    margin-top: -35px;
+}
+.Rotation .Rotation-2 .Rotation-2t .yz{
+    width: 41px;
+    height: 69px;
+    display: inline-block;
+}
+.Rotation .Rotation-2 .Rotation-2t .se{
+    color: #C9C5D8;
+    font-size: xx-large;
+    line-height: 69px;
+}
+.Rotation .Rotation-2 .Rotation-2t a:hover{
+    background-color: rgb(35,30,27,.5);
+}
+
+.Rotation-2 ul{
+    position: absolute;
+    top: 410px;
+    right:20px;
+}
+.Rotation-2 ul li{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    float: left;
+    border-radius: 50%;
+    background-color: #8F8F8F;
+}
+
+.Rotation-2 ul li:hover{
+    background-color: white;
+}
+.Rotation-2 ul li:nth-child(1){ 
+    background-color: white;
+}
+
+
+/* 轮播栏CSS结束 */
+
+/* 颈部CSS开始 */
+.neck{
+   width: 1226px;
+   height: 212px;
+   margin-top: 50px;
+}
+
+.neck-1{
+   width: 234px;
+   height: 170px;
+   background-color: #5F5750;
+}
+.neck-2 img{
+   width: 316px;
+   height: 170px;
+   float: left;
+   margin-left: 10px;
+}
+.neck .neck-1 ul li{
+   width: 76px;
+   height: 82px;
+   float: left;
+   text-align: center;
+}
+.neck .neck-1 ul li{
+   border-top: 1px solid #665E57;
+   border-left: 1px solid #665E57;
+}
+.neck .w .neck-1 ul li a{
+   width: 100%;
+   height: 100%;
+   display: inline-block;
+}
+.neck-1 img{
+   width: 24px;
+   height: 24px;
+   margin-top: 27px;
+}
+.neck .neck-1 p{
+   color: #CFCCCA;
+}
+.neck .neck-1 p:hover{
+color: #FFFFFF;
+}
+/* 颈部结束 */
+
+
+    /* 固定栏CSS开始 */
+.fixed{
+    width: 50px;
+    height: 26px;
+    z-index: 999;
+    position:fixed;
+    right: 20px;
+    top: 200px;
+}
+.fixed div{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border:1px solid #F5F5F5;
+    background-color: white;
+}
+.fixed div .picture{
+    font-size:xx-large;
+    line-height: 50px;
+}
+.fixed div a{
+    color: #999999;
+    
+    cursor: auto;
+}
+.fixed div a:hover{
+    color: #FF6700;
+}
+.fixed .fixed-1 {
+    position: relative;
+}
+.fixed .fixed-1 .fixed-1-2{
+    width: 100px;
+    height: 160px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: -132px;
+}
+.fixed .fixed-1:hover .fixed-1-2{
+    display:block;
+} 
+.fixed .fixed-1 .fixed-1-2 .fixed-1-2-1{
+    width: 110px;
+    height: 160px;
+    text-align: center;
+    background-color: white;
+}
+
+.fixed .fixed-1 .fixed-1-2 .fixed-1-2-1 p{
+    font-size: 14px;
+    color: #757575;
+}
+.fixed .fixed-1 .fixed-1-2 .fixed-1-2-1 img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 6px;
+}
+
+.fixed .fixed-1 .fixed-1-2 .fixed-1-2-2{
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid white;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 19px;
+    right: -31px;
+    background-color: transparent;
+}
+    /* 固定栏CSS结束 */
+
+
+/* 中部CSS开始 */
+.central-section{
+    width: 100%;
+    height: 2650px;
+    background-color: #F5F5F5;
+}
+
+
+
+
+    /* 小米闪购CSS开始 */
+    .Flash-purchase{
+        width: 1226px;
+        height: 397px;
+    }
+    .Flash-purchase-1{
+        width: 1226px;
+        height: 58px;
+        line-height: 58px;
+    }
+    .Flash-purchase-1 p{
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .Flash-purchase-1 .slide{
+        width: 36px;
+        height: 24px;
+        text-align: center;
+        line-height: 24px;
+        border: 1px solid #E0E0E0;
+        margin-top: 14px;
+    }
+    .Flash-purchase-1 .slide a{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        color: #B3B0B0;
+        font-weight: bold;
+    }
+    .Flash-purchase-1 .slide a:hover{
+        color: #FF6700;
+    }
+    .Flash-purchase-2 div{
+        width: 234px;
+        height: 339px;
+        float: left;
+        background-color: #FFFFFF;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-1 {
+        height: 300px;
+        padding-top: 39px;
+        background-color: #F1EDED;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-1 .time{
+        color: red;
+        font-size: 20px;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-1 .text{
+        color:#C3976D;
+        font-size: 20px;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-1 p{
+        text-align: center;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-1 .tp{
+        margin: 25px 0;
+        margin-left:97px ;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-1 .tp2{
+        margin-left:9px ;
+        margin-top: 28px;
+    }
+    
+    .Flash-purchase-2 .Flash-purchase-2-2{
+        margin-left: 14px;
+        text-align: center;
+    }
+    .Flash-purchase-2 .Flash2{
+        border-top:1px solid #E53935 ;
+    }
+    .Flash-purchase-2 .Flash1{
+        border-top:1px solid #1bbe31 ;
+    }
+    .Flash-purchase-2 .Flash3{
+        border-top:1px solid #1a1dcf ;
+    }
+    .Flash-purchase-2 .Flash4{
+        border-top:1px solid #e5a735 ;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-2 img{
+        width: 234px;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-2 .text3{
+        color: #B3B0B0;
+        margin-bottom: 12px;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-2 .text2{
+        font-size: 14px;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-2 .text4{
+        color: #FF6700;
+        font-size: 14px;
+    }
+    .Flash-purchase-2 .Flash-purchase-2-2 s{
+        margin-left: 5px;
+        color: #B3B0B0;
+    }
+     /* 小米闪购CSS结束 */
+
+
+
+     /* 分割图一开始 */
+     .Split-graph{
+         width: 1226px;
+         height: 120px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+    .Split-graph img{
+        width: 1226px;
+    }
+    /* 分割图一结束 */
+
+
+
+    /* 手机开始 */
+    .mobile-phone-1{
+        width: 1226px;
+        height: 57px;
+    }
+    .mobile-phone-1 p{
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 57px;
+    }
+    .mobile-phone .mobile-phone-1 .mobile-phone-1-2{
+            width: 20px;
+            height: 20px;
+            background-color: #B0B0B0;
+            text-align: center;
+            margin-top:18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 50%;
+    }
+    .mobile-phone .mobile-phone-1-1 a span{
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 200;
+        color: #333333;
+    }
+    .mobile-phone .mobile-phone-1-1 a span:hover{
+        color: #FF6700;
+    }
+    .mobile-phone .mobile-phone-1-1 a span:hover span{
+        color: #FF6700;
+    }
+    /* .mobile-phone .mobile-phone-1-1 a .mobile-w:hover{
+        color: #FF6700;
+    } */
+    .mobile-phone-2{
+        width: 1226px;
+        height: 619px;
+    }
+    .mobile-phone-2 .mobile-phone-2-1 .mobile-phone-2-1t{
+        width: 234px;
+        height: 614px;
+    }
+    .mobile-phone-2 .mobile-phone-2-1{
+        transition-duration: 0.3s;
+    }
+    .mobile-phone-2 .mobile-phone-2-2{
+        width: 234px;
+        height: 300px;
+        margin-left: 14px;
+        text-align: center;
+        float: left;
+        background-color: white;
+        transition-duration: 0.3s;
+    }
+   
+    .mobile-phone-2 .mobile-phone-2-2 a img{
+        width: 160px;
+        height: 160px;
+    }
+    .mobile-phone-2 .mobile-phone-2-2 p{
+        font-size: 14px;
+        color: #555555;
+    }
+    .mobile-phone-2 .mobile-phone-2-2 .wen1{
+        color: #B3B0B0;
+        margin-bottom: 15px;
+    }
+    .mobile-phone-2 .mobile-phone-2-2 .wen3{
+        color: #FF6700;
+        font-size: 14px;
+    }
+    .mobile-phone-2 .machine{
+        margin-bottom: 14px;
+    }
+    .mobile-phone-2 a{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-phone-2 .mobile-phone-2-1:hover{
+        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        transform: translateY(-3px);
+    }
+    .mobile-phone-2 .mobile-phone-2-2:hover{
+        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        transform: translateY(-5px);
+    }
+    /* 手机结束 */
+
+
+
+
+    /* 家电开始 */
+    .television{
+        width: 1226px;
+        height: 686px;
+    }
+    .television .television-1{
+        width: 1226px;
+        height: 57px;   
+    }
+    .television .television-1 p{
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 57px;
+        color: #333333; 
+    }
+    .television .television-1-1 a{
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 57px;
+        text-decoration: dotted;
+        color: #333333;
+    }
+    .television .television-1-1 a:nth-child(1){
+        color: #FF6700;
+        text-decoration:underline;
+    }
+    .television .television-1-1 a:hover{
+        color: #FF6700;
+        text-decoration:underline;
+    }
+    
+    .television .television-2
+    {
+        width: 1226px;
+        height: 628px;
+    }
+    .television .television-2-1{
+        width: 234px;
+        height: 614px;
+    }
+    .television .television-2-1 .television-2-1-1 img{
+        width: 234px;
+        height: 300px;
+    }
+    .television .television-2-1-1{
+        transition-duration: 0.3s;
+    }
+    .television .television-2-1-1:hover{
+        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        transform: translateY(-5px);
+    }
+    .television .television-2-1 .ct1{
+        margin-bottom: 14px;
+    }
+    .television .television-2 .television-3{
+        width: 992px;
+        height: 614px;
+    }
+    .television .television-2 .television-3 .television-3-1{
+        float: left;
+        width: 234px;
+        height: 300px;
+        background-color: #FFFFFF;
+        margin-left: 14px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .television .television-2 .television-3 .television-3-1 a{
+        color: #333333;
+    }
+    .television .television-2 .television-3 .shi{
+        margin-bottom: 14px;
+    }
+    .television .television-2 .television-3  .television-3-1 img{
+        width: 160px;
+        height: 160px;
+    }
+    
+    .television-2 .wen3{
+        color: #FF6700;
+        font-size: 14px;
+    }
+    .television .television-2 .television-3 .television-3-1 a .wen1{
+        color: #C4C4C4;
+    }
+    .television .television-2 .television-3 .television-3-1 a .wen3 s{
+        margin-left: 5px;
+        color: #C4C4C4;
+    }
+    .television .television-3-1{
+        transition-duration: 0.3s;
+    }
+    .television .television-3-1:hover{
+        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        transform: translateY(-5px);
+    }
+    .television .television-4{
+        width: 234px;
+        height: 300px;
+        margin-left: 14px;
+    }
+    .television .television-4 .television-4-1{
+        width: 234px;
+        height: 93px;
+        background-color: white;
+        padding-top: 50px;
+        margin-bottom: 14px;
+        transition-duration: 0.3s;
+    }
+    .television .television-4 .television-4-1:hover{
+        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        transform: translateY(-5px);
+    }
+    .television .television-4 .television-4-1 ul{
+        margin-left: 30px;
+    }
+    .television .television-4 .television-4-1 ul li{
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: black;
+    }
+    .television .television-4 .television-4-1 ul .wen1{
+        color: #FF6700;
+    }
+    .television .television-4 .television-4-1-1{
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+    .television .television-4 .television-4-1 span{
+        color: #FF6700;
+        font-size: 48px;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+    /* 家电结束 */
+
+
+
+
+
+    /* 视频开始 */
+    .video-1{
+        width: 1226px;
+        height: 57px;
+    }
+    .video-1 p{
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 57px;
+    }
+    .video .video-1-1 a span{
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 200;
+        color: #333333;
+    }
+    .video .video-1-1 a span:hover{
+        color: #FF6700;
+    }
+    .video .video-1-1 a span:hover span{
+        color: #FF6700;
+    }
+
+    .video .video-2{
+        width: 296px;
+        height: 285px;
+        background-color: white;
+        text-align: center;
+        float: left;
+        margin-left: 14px;
+        position: relative;
+        transition-duration: 0.3s;
+    }
+    .video .video-2 img{
+        width: 290px;
+        height: 180px;
+        margin-bottom: 28px;
+    }
+    .video .video-2-t{
+        margin: 0;
+    }
+    .video .video-2 p{
+        color: #333333;
+        font-size: 14px;
+    }
+    .video .video-2 .video-2-1{
+        width: 36px;
+        height: 20px;
+        border: 2px solid white;
+        line-height: 20px;
+        border-radius: 12px;
+        position: absolute;
+        top: 140px;
+        left: 20px;
+    }
+    .video .video-2 .video-2-1 span{
+        color: white;
+        font-size: 12px;
+    }
+    .video .video-2:hover{
+        box-shadow: 0 15px 30px rgba(0,0,0,.1);
+        transform: translateY(-5px);
+    }
+    .video .video-2:hover span{
+        background-color: #FF6700;
+        border: 2px solid #FF6700;
+    }
+    /* 视频结束 */
+
+    /* 中部结束 */
+
+
+
+    /* 底部开始 */
+
+
+    /* 服务栏开始 */
+    .service{
+        width: 1226px;
+        height: 25px;
+        padding: 27px 0;
+    }
+    .service ul li{
+        float: left;
+        font-size: 16px;
+        width: 242px;
+        border-left: 1px solid #E0E0E0;
+        text-align: center;
+    }
+    .service ul li:nth-child(1){
+        border-left: 0px;
+    }
+    .service ul li a{
+        color: #616161;
+        line-height: 25px;
+    }
+    .service ul li span{
+        font-size: 24px;
+        margin-right: 6px;
+        line-height: 25px;
+    }
+    .service ul li a:hover{
+        color: #FF6700;
+    }
+    /* 服务栏结束 */
+
+
+    /* 帮助栏开始 */
+    .help{
+        width: 1226px;
+        height: 129px;
+        border-top: 1px solid #E0E0E0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .help dl{
+        width: 160px;
+        height: 112px;
+        float: left;
+    }
+    .help dl dt{
+        margin-bottom: 26px;
+        font-size: 14px;
+    }
+    .help dl dd{
+        margin-top: 10px;
+        color: #757575;
+    }
+    .help dl dd a{
+        color: #757575;
+    }
+    .help dl dd:hover a{
+        color: #FF6700;
+    }
+    .help .help-1{
+        width: 252px;
+        height: 110px;
+        text-align: center;
+        border-left: 1px solid  #E0E0E0;
+    }
+    .help .help-1 .help-1-1{
+        font-size: 22px;
+        color: #FF6700;
+    }
+    .help .help-1 p{
+        margin-bottom: 5px;
+    }
+    .help .help-1 .artificial{
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        color: #FF6700;
+        border: 1px solid #FF6700;
+        transition:all 0.4s;
+    }
+    .help .help-1 .artificial:hover{
+        background-color: #FF6700;
+        color: #FFFFFF;
+    }
+    .help .help-1 .micro-blog{
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background-color: white;
+    }
+    .help .help-1 .help-1-2{
+        width: 251px;
+        height: 21px;
+        margin-top: 10px;
+        background-color: #FFFFFF;
+        position: relative;
+
+    }
+    .help .help-1 .help-1-2 .micro-blog {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        font-size: 14px;
+        color: #474747;
+    }
+    .help .help-1 .help-1-2 .micro-blog:hover{
+        color: #FF6700;
+    }
+    .help .help-1 .help-1-2 .WeChat {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        font-size: 14px;
+        color: #474747;
+    }
+    .help .help-1 .help-1-2 .WeChat:hover{
+        color: #FF6700;
+    }
+    .help .help-1 .help-1-2 img{
+        width: 126px;
+        height: 126px;
+        position: absolute;
+        right: 15px;
+        bottom: -125px;
+        display: none;
+    }
+    .help .help-1 .help-1-2 .WeChat:hover+img{
+        display:block;
+    }
+    /* 帮助栏结束 */
+
+
+
+    /* 信息栏开始 */
+    .information{
+        width: 1226px;
+        height: 230px;
+    }
+    .information .information-1{
+        width: 1226px;
+        height: 21px;
+        margin: 14px 0;
+    }
+    .information .information-1 span{
+        margin: 0 4px;
+        font-size: 14px;
+    }
+    .information p a{
+        font-size: 14px;
+        color: #757575;
+    }
+    .information p a:hover{
+        color: #FF6700;
+    }
+    .information p span{
+        font-size: 14px;
+    }
+    .information .information-2{
+        padding: 14px 0px;
+    }

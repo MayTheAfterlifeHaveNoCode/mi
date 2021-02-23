@@ -1,0 +1,33 @@
+/* 初始化开始 */
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 12px;
+}
+
+.navigation{
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+
+.w{
+    width: 1226px;
+    margin:0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 初始化js */
